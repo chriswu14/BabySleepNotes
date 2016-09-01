@@ -1,0 +1,24 @@
+{
+  "name": "BabySleepNote",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh",
+    "postinstall": "remotedev-debugger"
+  },
+  "dependencies": {
+    "moment": "^2.14.1",
+    "react": "^15.2.1",
+    "react-native": "^0.31.0",
+    "react-native-drawer": "^2.2.6",
+    "react-native-router-flux": "^3.34.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0",
+    "remote-redux-devtools": "^0.3.4"
+  },
+  "devDependencies": {
+    "react-timer-mixin": "^0.13.3",
+    "remote-redux-devtools-on-debugger": "^0.6.2"
+  }
+}
